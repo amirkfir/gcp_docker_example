@@ -7,7 +7,7 @@ steps:
     '-t',
     'europe-west1-docker.pkg.dev/$PROJECT_ID/my-dummy-registery/basic-image',
     '-f',
-    '<path-to-dockerfile>'
+    'Dockerfile'
   ]
 - name: 'gcr.io/cloud-builders/docker'
   id: 'Push container image'
